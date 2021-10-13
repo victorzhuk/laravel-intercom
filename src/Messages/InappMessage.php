@@ -70,13 +70,13 @@ final class InappMessage implements MessageInterface
 
         $contactsCount = \count($this->contacts);
         if ($contactsCount !== 2) {
-            throw new Exception("One by one dialog should have only 2 participants, got {$contactsCount}");
+            throw new Exception("Dialog should have 2 participants, got {$contactsCount}");
         }
 
         [ $contactFrom, $contactTo ] = $this->contacts;
 
         return [
-            'message_type' => 'innapp',
+            'message_type' => 'inapp',
             'body' => $this->message,
             'from' => [
                 'type' => $contactFrom->getType(),

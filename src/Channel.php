@@ -50,7 +50,7 @@ final class Channel
         $message = $notification->toIntercom($notifiable);
 
         /** @var string|null */
-        $adminContactId = $this->config->get('services.intercom.admin_contact_id');
+        $adminContactId = $this->config->get('services.intercom.admin_user_id');
         $contacts = $message->getContacts();
 
         $conversationId = $message->getConversationId();
