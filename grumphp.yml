@@ -1,0 +1,21 @@
+grumphp:
+  stop_on_failure: false
+  ignore_unstaged_changes: true
+
+  ascii:
+    failed: ~
+    succeeded: ~
+
+  parallel:
+    enabled: true
+    max_workers: 32
+
+  fixer:
+    enabled: false
+
+  tasks:
+    phpcsfixer:
+      config: .php-cs-fixer.dist.php
+    psalm:
+      config: psalm.xml
+      no_cache: true
