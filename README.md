@@ -1,7 +1,8 @@
 # laravel-intercom
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/zhuk/laravel-intercom.svg?style=flat-square)](https://packagist.org/packages/zhuk/laravel-intercom)
-[![Total Downloads](https://img.shields.io/packagist/dt/zhuk/laravel-intercom.svg?style=flat-square)](https://packagist.org/packages/zhuk/laravel-intercom)
+![GitHub](https://img.shields.io/github/license/victorzhuk/laravel-intercom)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/victorzhuk/laravel-intercom?include_prereleases)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/victorzhuk/laravel-intercom/latest?include_prereleases)
 
 > Laravel notification driver and bindings of [PHP Intercom API](https://github.com/intercom/intercom-php)
 
